@@ -1,0 +1,27 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child-one{
+    background-color: red;
+    width: 200px;
+    align-self: flex-end;
+    flex-shrink: 4;
+   
+}
+
+.child-two{
+    background-color: green;
+    width: 200px;
+    
+}
+
+.child-three{
+    background-color: blue;
+    width: 200px;
+   
+   
+}
